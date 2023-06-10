@@ -25,7 +25,7 @@ const MobileFooter: FC<MobileFooterProps> = ({}) => {
         z-40
         flex
         items-center
-        bg-red-200
+        bg-gray-300
         border-t-[1px]
         lg:hidden
     '>

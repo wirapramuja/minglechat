@@ -130,7 +130,7 @@ const ConversationList: FC<ConversationListProps> = ({
           className='
           rounded-full
           p-2
-          bg-red-200
+          bg-white
           text-gray-600
           cursor-pointer
           hover:opacity-75

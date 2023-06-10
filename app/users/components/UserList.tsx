@@ -26,7 +26,7 @@ const UserList: FC<UserListProps> = ({
      block
      w-full
      left-0
-     bg-red-300
+     bg-white
      '
     >
         <div className='

@@ -33,7 +33,7 @@ const DesktopSidebar: FC<DesktopSidebarProps> = ({
         lg:w-20
         xl:px-6
         lg:overflow-y-auto
-        lg:bg-red-200
+        lg:bg-gray-300
         lg:border-r-[1px]
         lg:pb-4
         lg:flex
@@ -61,6 +61,7 @@ const DesktopSidebar: FC<DesktopSidebarProps> = ({
                         <DesktopItem
                             key={item.label}
                             {...item}
+                            
                         />
                     ))}
                 </ul>

@@ -11,6 +11,7 @@ export default function Home() {
       flex-col
       justify-center
       py-12
+      px-6
       sm:px-6
       lg:px-8
       bg-white
@@ -18,7 +19,7 @@ export default function Home() {
     >
       <div
        className="
-        sm:mx-auto sm:w-full sm:max-w-md
+         sm:mx-auto sm:w-full sm:max-w-md
        "
       >
         <Image

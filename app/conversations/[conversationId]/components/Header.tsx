@@ -53,7 +53,7 @@ const Header: FC<HeaderProps> = ({
           '
           >
             <Link
-            href='/conversation'
+            href='/conversations'
             className='lg:hidden block
             text-sky-500
             hover:text-sky-600

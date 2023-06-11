@@ -92,7 +92,7 @@ const AuthForm: FC<AuthFormProps> = ({}) => {
         signIn(action, {redirect:false})
         .then((callback) => {
             if(callback?.error){
-                toast.error('Invalid Credentilas')
+                toast.error('Password Incorrect')
             }
 
             if (callback?.ok && !callback?.error){
@@ -215,7 +215,7 @@ const AuthForm: FC<AuthFormProps> = ({}) => {
              '
             >
                 <p>
-                    {variant === 'LOGIN' ? 'New to Messengger?' : 'Already have an Account?'}
+                    {variant === 'LOGIN' ? 'New to Minglechat?' : 'Already have an Account?'}
                 </p>
                 <p
                  onClick={toggleVariant}
